@@ -132,6 +132,7 @@
 }
 .footer p{
     color: white;
+    display: inline;
 }
 ul{
     list-style: none;
