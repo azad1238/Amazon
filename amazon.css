@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background:#232F3E;
+    display: flex;
+    position: sticky;
+}
+.location p{
+    color: white;
+    margin-left: 10px;   
+}
+.deliver{
+    margin-top: 10px;
+}
+.india{
+    font-weight: bold;
+}
+.searchbar{
+    width: 60vw;
+    height: 40px;
+    background: white;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
+.searchbar input{
+    border: none;
+    height: 40px;
+    width: 50vw;
+    margin-left: 10px;
+    outline: none;
+}
+.icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #FEBD69;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i{
+    color: black;
+}
+.return{
+    width: 80px;
+    height: 40px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.bold{
+    font-weight: bold;
+    margin-left: -5px;
+}
+.sign{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.dropdown{
+    width: 100vw;
+    height: 35px;
+    background:#37475A;
+    
+}
+.dropdown p{
+    display: inline-block;
+    color: white;
+    padding-top: 7px;
+    margin-left: 30px;
+}
+.image{
+    width: 100vw;
+}
+.image img{
+    width: 100vw;
+}
+.shopmain{
+    width: 100vw;
+    background-color: #d3e6e6;
+    height: 1275px;
+    position: relative;
+    top: -200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.shopmain div{
+    width: 30%;
+    height: 400px;
+    background-color: white;
+}
+.shopmain div h2 , .shopmain div p{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.shopmain div div{
+    width: 90%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-size: cover;
+}
+.shopmain div p{
+    color: #67b19c;
+}
+.back{
+    width: 100vw;
+    height: 45px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -200px;
+    color: white;
+}
+.footer{
+    width: 100vw;
+    height: 600px;
+    background-color: #232F3E;
+    position: relative;
+    top: -200px;
+}
+.footer p{
+    color: white;
+}
