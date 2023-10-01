@@ -125,10 +125,12 @@
 }
 .footer{
     width: 100vw;
-    height: 600px;
+    height: 400px;
     background-color: #232F3E;
     position: relative;
     top: -200px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .footer p{
     color: white;
@@ -178,4 +180,4 @@ ul a{
     right: 250px;
     top: 60px;
     color: white;
-    }
+}
