@@ -133,3 +133,48 @@
 .footer p{
     color: white;
 }
+ul{
+    list-style: none;
+    color: white;
+    display: inline;
+}
+ul p{
+    margin: 15px;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    right: 5px;
+}
+ul a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    position: relative;
+    top: 30px;
+}
+.footmain{
+    width: 50vw;
+    height: 60px;
+    position: relative;
+    left: 250px;
+    bottom: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footmain img{
+    height: 60px;
+}
+.footmain div{
+    border: 1px solid white;
+    height: 20px;
+    color: white;
+    padding: 10px;
+}
+.copyright{
+    position: relative;
+    right: 250px;
+    top: 60px;
+    color: white;
+    }
